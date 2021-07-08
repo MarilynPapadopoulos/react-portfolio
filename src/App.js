@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import About from './Components/About';
-import Nav from './Components/Nav';
+import Navigation from './Components/Navigation';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -12,11 +14,14 @@ function App() {
   return (
     <div>
       <header>
-        <Nav setCurrent={setCurrent} components={components}></Nav>
+        <Navigation setCurrent={setCurrent} components={components}></Navigation>
       </header>
       <main>
       {current}
       </main>
+      <footer>  
+        <Footer />
+      </footer>
       
     </div>
   );
