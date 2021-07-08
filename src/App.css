@@ -1,10 +1,27 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --font-pink: #E01A4F;
+  --background-dark: #12263A;
+  --light-blue: #B8D8D8;
+}
+#name {
+  color: var(--font-pink);
+  font-family: 'PT Serif', serif;
+  font-size: 40px;
+}
+.Navbar {
+  background-color: var(--background-dark);
+}
+.Nav-link {
+  color: var(--light-blue);
+}
+.Nav-link:hover {
+  color: var(--font-pink);
+}
+main {
+  background-color: var(--light-blue);
 }
 
 @media (prefers-reduced-motion: no-preference) {
