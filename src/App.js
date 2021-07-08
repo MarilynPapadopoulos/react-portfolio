@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import About from './Components/About';
+import Nav from './Components/Nav';
+import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact';
 import './App.css';
 
+
 function App() {
+  const components = [<About/>, <Portfolio/>,<Contact/>]
+  const[current, setCurrent]= useState(components[0]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Nav setCurrent={setCurrent} components={components}></Nav>
       </header>
+      <main>
+      {current}
+      </main>
+      
     </div>
   );
 }
