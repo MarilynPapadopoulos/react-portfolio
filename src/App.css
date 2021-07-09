@@ -1,10 +1,22 @@
 .App {
   text-align: center;
 }
+.container {
+  padding: 5px;
+}
 :root {
   --font-pink: #E01A4F;
   --background-dark: #12263A;
   --light-blue: #B8D8D8;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.dark-color {
+  color: var(--background-dark);
 }
 #name {
   color: var(--font-pink);
@@ -12,16 +24,31 @@
   font-size: 40px;
 }
 .Navbar {
-  background-color: var(--background-dark);
+  background-color: var(--background-dark) ;
 }
 .Nav-link {
-  color: var(--light-blue);
+  color: var(--light-blue) !important;
 }
 .Nav-link:hover {
-  color: var(--font-pink);
+  color: var(--font-pink) !important;
+}
+.Nav-active {
+  color: var(--font-pink) !important;
+}
+.navbar-toggler.collapsed {
+  color: var(--light-blue) !important;
+}
+h2 {
+  color: var(--background-dark)
 }
 main {
   background-color: var(--light-blue);
+}
+.About {
+  color: var(--background-dark);
+}
+.Footer {
+  background-color: var(--background-dark) ;
 }
 
 @media (prefers-reduced-motion: no-preference) {

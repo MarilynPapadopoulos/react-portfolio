@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import About from './Components/About';
-import Navigation from './Components/Navigation';
+import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
@@ -12,9 +12,9 @@ function App() {
   const components = [<About/>, <Portfolio/>,<Contact/>]
   const[current, setCurrent]= useState(components[0]);
   return (
-    <div>
+    <div className="container">
       <header>
-        <Navigation setCurrent={setCurrent} components={components}></Navigation>
+        <Header setCurrent={setCurrent} components={components} />
       </header>
       <main>
       {current}
