@@ -10,6 +10,7 @@ I had the opportunity to use React Bootstrap for the first time.  The biggest ch
 ## Installation
 
 You can run this app from the CLI using npm start
+This is a [link](https://marilynpapadopoulos.github.io/react-portfolio/) to the project.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Usage 
