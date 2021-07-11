@@ -14,8 +14,8 @@ function Navigation({setCurrent, components}) {
   return (
       <>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto" >
+          <Navbar.Collapse className="justify-content-end"  id="basic-navbar-nav">
+            <Nav>
               <Nav.Link className={active==='About Me' ? 'Nav-active': "Nav-link"} onClick={()=>updatePage(components[0], 'About Me')}>About Me</Nav.Link>
               <Nav.Link className={active==='Portfolio' ? 'Nav-active': "Nav-link"}onClick={()=>updatePage(components[1], 'Portfolio')}>Portfolio</Nav.Link>
               <Nav.Link className={active==='Contact' ? 'Nav-active': "Nav-link"}onClick={()=>updatePage(components[2], 'Contact')}>Contact</Nav.Link>

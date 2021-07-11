@@ -12,7 +12,7 @@ function App() {
   const components = [<About/>, <Portfolio/>,<Contact/>]
   const[current, setCurrent]= useState(components[0]);
   return (
-    <div className="container">
+    <div className="page-container">
       <header>
         <Header setCurrent={setCurrent} components={components} />
       </header>
