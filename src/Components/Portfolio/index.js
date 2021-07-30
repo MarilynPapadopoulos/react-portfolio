@@ -28,7 +28,7 @@ function Portfolio () {
                 </Col>
                 <Col sm={12} md={6} lg={4}>
                     <a href ="https://rocky-beyond-34880.herokuapp.com/"><h2>Note Taker</h2></a>
-                    <Image src= {NoteTaker} width="200" height="180" fluid/>
+                    <Image src= {PuppyLove} width="200" height="180" fluid/>
                     <a href ="https://github.com/MarilynPapadopoulos/Note-Taker.git"><div><i className="fab fa-github dark-color"></i></div></a>
                 </Col>
            
