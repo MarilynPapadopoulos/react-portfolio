@@ -27,9 +27,9 @@ function Portfolio () {
                     <a href ="https://github.com/MarilynPapadopoulos/Pizza-Hunt.git"><div><i className="fab fa-github dark-color"></i></div></a>
                 </Col>
                 <Col sm={12} md={6} lg={4}>
-                    <a href ="https://rocky-beyond-34880.herokuapp.com/"><h2>Note Taker</h2></a>
+                    <a href ="https://puppy-love-date.herokuapp.com/"><h2>Puppy Love</h2></a>
                     <Image src= {PuppyLove} width="200" height="180" fluid/>
-                    <a href ="https://github.com/MarilynPapadopoulos/Note-Taker.git"><div><i className="fab fa-github dark-color"></i></div></a>
+                    <a href ="https://github.com/MAsuamah/puppy-love.git"><div><i className="fab fa-github dark-color"></i></div></a>
                 </Col>
            
                 <Col sm={12} md={6} lg={4}>
