@@ -8,7 +8,7 @@ function Header({ setCurrent, components }) {
         <header>
             <Navbar className="Navbar" expand="lg">
             <Container>
-                <Navbar.Brand href="/" id="name">Marilyn Papadopoulos</Navbar.Brand>
+                <Navbar.Brand href="/" id="name">Marilyn <br />Papadopoulos</Navbar.Brand>
                 <Navigation setCurrent={setCurrent} components={components} />
             </Container>
             </Navbar>

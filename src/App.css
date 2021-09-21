@@ -48,6 +48,7 @@ h2 {
   border-color: var(--light-blue) !important;
 }
 #name {
+  font-size: 48px;
   color: var(--font-pink);
   font-family: 'PT Serif', serif;
   font-size: 40px;
