@@ -1,8 +1,10 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
+import '../../App.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card'
+
 import BudgetTrack from  '../../assets/projects/BudgetTrack.png'
 import PizzaHunt from  '../../assets/projects/PizzaHunt.png'
 import PuppyLove from  '../../assets/projects/PuppyLove.png' 
@@ -14,38 +16,91 @@ function Portfolio () {
     return (
 
     <>
-        <Container>
+        <Container className="portfolio-container">
              <Row>
-                <Col sm={12} md={6} lg={4}>  
-                    <a href ="https://whispering-falls-82185.herokuapp.com/"><h2>Budget Tracker</h2></a>
-                    <Image src ={BudgetTrack} width="200" height="180" fluid/>
-                    <a href ="https://github.com/MarilynPapadopoulos/Budget-Tracker.git"><div><i className="fab fa-github dark-color" ></i></div></a>
+                <Col sm={12} md={6} lg={4}>
+                <Card className="portfolio-card">
+                    <Card.Img variant="top" src={BudgetTrack}  />
+                    <Card.Body>
+                    <Card.Title> <a href ="https://immense-wave-91542.herokuapp.com/">Budget Tracker</a></Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <a href ="https://github.com/MarilynPapadopoulos/Budget-Tracker.git">
+                        <i className="fab fa-github dark-color" ></i></a>
+                    </Card.Body>
+                    </Card>
                 </Col>
                 <Col sm={12} md={6} lg={4}>
-                    <a href ="https://immense-wave-91542.herokuapp.com/"><h2>Pizza Hunt</h2></a>
-                    <Image src= {PizzaHunt} width="200" height="180" fluid/>
-                    <a href ="https://github.com/MarilynPapadopoulos/Pizza-Hunt.git"><div><i className="fab fa-github dark-color"></i></div></a>
+                <Card className="portfolio-card">
+                    <Card.Img variant="top" src={PizzaHunt}  />
+                    <Card.Body>
+                        <Card.Title> <a href ="https://immense-wave-91542.herokuapp.com/">Pizza Hunt</a></Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <a href ="https://github.com/MarilynPapadopoulos/Pizza-Hunt.git">
+                        <i className="fab fa-github dark-color" ></i></a>
+                    </Card.Body>
+                    </Card>
                 </Col>
                 <Col sm={12} md={6} lg={4}>
-                    <a href ="https://puppy-love-date.herokuapp.com/"><h2>Puppy Love</h2></a>
-                    <Image src= {PuppyLove} width="200" height="180" fluid/>
-                    <a href ="https://github.com/MAsuamah/puppy-love.git"><div><i className="fab fa-github dark-color"></i></div></a>
-                </Col>
-           
-                <Col sm={12} md={6} lg={4}>
-                    <a href ="https://agile-eyrie-87704.herokuapp.com/"><h2>Zoo Keepr</h2></a>
-                    <Image src= {ZooKeepr} width="200" height="180" fluid/>
-                    <a href ="https://github.com/MarilynPapadopoulos/zookeepr.git"><div><i className="fab fa-github dark-color"></i></div></a>
-                </Col>
-                <Col sm={12} md={6} lg={4}>
-                    <a href =" https://marilynpapadopoulos.github.io/photo-port/"><h2>Photo Port</h2></a>
-                    <Image src= {PhotoPort} width="200" height="180"  fluid/>
-                    <a href ="https://github.com/MarilynPapadopoulos/photo-port.git"><div><i className="fab fa-github dark-color"></i></div></a>
+                <Card className="portfolio-card">
+                    <Card.Img variant="top" src={PuppyLove}  />
+                    <Card.Body>
+                        <Card.Title> <a href ="https://puppy-love-date.herokuapp.com/">Puppy Love</a></Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <a href ="https://github.com/MAsuamah/puppy-love.git">
+                        <i className="fab fa-github dark-color" ></i></a>
+                    </Card.Body>
+                    </Card>
                 </Col>
                 <Col sm={12} md={6} lg={4}>
-                    <a href ="https://immense-wave-91542.herokuapp.com/"><h2>Food Festival</h2></a>
-                    <Image src= {FoodFestival} width="200" height="180" fluid/>
-                    <a href ="https://github.com/MarilynPapadopoulos/food-festival.git"><div><i className="fab fa-github dark-color"></i></div></a>
+                <Card className="portfolio-card">
+                    <Card.Img variant="top" src={ZooKeepr} />
+                    <Card.Body>
+                        <Card.Title> <a href ="https://agile-eyrie-87704.herokuapp.com/">ZooKeepr</a></Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <a href ="https://github.com/MarilynPapadopoulos/zookeepr.git">
+                        <i className="fab fa-github dark-color" ></i></a>
+                    </Card.Body>
+                    </Card>
+                </Col>
+                <Col sm={12} md={6} lg={4}>
+                <Card className="portfolio-card">
+                    <Card.Img variant="top" src={PhotoPort} />
+                    <Card.Body>
+                        <Card.Title> <a href ="https://marilynpapadopoulos.github.io/photo-port/">Photo Port</a></Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <a href ="https://github.com/MarilynPapadopoulos/photo-port.git">
+                        <i className="fab fa-github dark-color" ></i></a>
+                    </Card.Body>
+                    </Card>
+                </Col>
+                <Col sm={12} md={6} lg={4}>
+                <Card className="portfolio-card">
+                    <Card.Img variant="top" src={FoodFestival} />
+                    <Card.Body>
+                        <Card.Title> <a href ="https://immense-wave-91542.herokuapp.com/">Food Festival</a></Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <a href ="https://github.com/MarilynPapadopoulos/food-festival.git">
+                        <i className="fab fa-github dark-color" ></i></a>
+                    </Card.Body>
+                    </Card>
                 </Col>
             </Row>
         </Container>

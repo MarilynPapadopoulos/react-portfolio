@@ -1,11 +1,15 @@
 
+/* All the !important are to override Bootstrap */
 .App {
   text-align: center;
+}
+main {
+  height: auto;
 }
 .container {
   padding: 5px;
 }
-html, body, #root, .page-container, main {
+html, body, #root, .page-container {
   height: 100%;
 }
 :root {
@@ -72,7 +76,16 @@ h2 {
   color: var(--background-dark);
 }
 /* About Ends */
+/* Portfolio Starts */
+.portfolio-container {
+  margin: 35px auto;
+}
+.portfolio-card {
+  margin: 20px auto;
+  border: 10px solid  #B8D8D8 !important;
+}
 
+/* Portfolio Ends */
 /* Foooter Starts */
 .footer-container {
   background-color: var(--background-dark);
