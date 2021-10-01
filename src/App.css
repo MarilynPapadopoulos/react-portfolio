@@ -63,6 +63,7 @@ h2 {
 .about-container {
   display: flex;
   align-self: center;
+  height: 400px;
 }
 .about-column{
   display: flex;
@@ -70,10 +71,12 @@ h2 {
   align-items: center;
 }
 .about {
-  margin-top: 15px;
+  align-items: center;
 }
 .about-text {
   color: var(--background-dark);
+  line-height: 1.5;
+  font-size: 18px;
 }
 /* About Ends */
 /* Portfolio Starts */
@@ -105,7 +108,7 @@ h2 {
 }
 
 /* Footer Ends */
-@media screen and (max-width:680px) {
+@media screen and (max-width:768px) {
   #name {
     font-size: 25px;
   }
@@ -116,6 +119,7 @@ h2 {
     font-size: 20px;
   }
 }
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
