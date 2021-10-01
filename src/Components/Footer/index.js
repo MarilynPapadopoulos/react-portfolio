@@ -8,6 +8,8 @@ function Footer () {
             <Row className="footer-links">
                 <Col><a href="https://github.com/MarilynPapadopoulos"><i className="fab fa-github footer-links "></i></a></Col>
                 <Col><a href="https://www.linkedin.com/in/marilyn-papadopoulos/"><i className="fab fa-linkedin-in footer-links "></i></a></Col>
+                <Col><a href="mailto:marilyn.volk@gmail.com"><i className="fas fa-envelope footer-links"></i></a></Col>
+              
             </Row>
         </Container>
     )

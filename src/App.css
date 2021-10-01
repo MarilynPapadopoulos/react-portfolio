@@ -1,11 +1,15 @@
 
+/* All the !important are to override Bootstrap */
 .App {
   text-align: center;
+}
+main {
+  height: auto;
 }
 .container {
   padding: 5px;
 }
-html, body, #root, .page-container, main {
+html, body, #root, .page-container {
   height: 100%;
 }
 :root {
@@ -48,6 +52,7 @@ h2 {
   border-color: var(--light-blue) !important;
 }
 #name {
+  font-size: 48px;
   color: var(--font-pink);
   font-family: 'PT Serif', serif;
   font-size: 40px;
@@ -58,6 +63,7 @@ h2 {
 .about-container {
   display: flex;
   align-self: center;
+  height: 400px;
 }
 .about-column{
   display: flex;
@@ -65,13 +71,30 @@ h2 {
   align-items: center;
 }
 .about {
-  margin-top: 15px;
+  align-items: center;
 }
 .about-text {
   color: var(--background-dark);
+  line-height: 1.5;
+  font-size: 18px;
 }
 /* About Ends */
+/* Portfolio Starts */
+.portfolio-container {
+  margin: 35px auto;
+}
+.portfolio-card {
+  margin: 20px auto;
+  border: 10px solid  #B8D8D8 !important;
+}
+.card-title a {
+  color: var(--background-dark);
+}
+.card-title a:hover {
+  color: var(--background-dark);
+}
 
+/* Portfolio Ends */
 /* Foooter Starts */
 .footer-container {
   background-color: var(--background-dark);
@@ -85,7 +108,7 @@ h2 {
 }
 
 /* Footer Ends */
-@media screen and (max-width:680px) {
+@media screen and (max-width:768px) {
   #name {
     font-size: 25px;
   }
@@ -96,6 +119,7 @@ h2 {
     font-size: 20px;
   }
 }
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
