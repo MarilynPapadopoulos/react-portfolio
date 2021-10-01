@@ -84,7 +84,10 @@ h2 {
   margin: 20px auto;
   border: 10px solid  #B8D8D8 !important;
 }
-.card-title {
+.card-title a {
+  color: var(--background-dark);
+}
+.card-title a:hover {
   color: var(--background-dark);
 }
 
