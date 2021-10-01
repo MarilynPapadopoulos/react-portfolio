@@ -36,7 +36,7 @@ function Portfolio () {
                 <Card className="portfolio-card">
                     <Card.Img variant="top" src={PizzaHunt}  />
                     <Card.Body>
-                        <Card.Title> <a href ="https://immense-wave-91542.herokuapp.com/">Pizza Hunt</a></Card.Title>
+                        <Card.Title className="card-title"> <a href ="https://immense-wave-91542.herokuapp.com/">Pizza Hunt</a></Card.Title>
                         <Card.Text>
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.

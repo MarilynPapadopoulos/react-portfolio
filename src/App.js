@@ -7,7 +7,6 @@ import Footer from './Components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-
 function App() {
   const components = [<About/>, <Portfolio/>,<Contact/>]
   const[current, setCurrent]= useState(components[0]);
@@ -28,3 +27,6 @@ function App() {
 }
 
 export default App;
+
+
+
