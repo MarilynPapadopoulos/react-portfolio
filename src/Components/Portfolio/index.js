@@ -24,8 +24,7 @@ function Portfolio () {
                     <Card.Body>
                     <Card.Title> <a href ="https://immense-wave-91542.herokuapp.com/">Budget Tracker</a></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        This budget tracker is ideal when Internet connection is unavailable.
                         </Card.Text>
                         <a href ="https://github.com/MarilynPapadopoulos/Budget-Tracker.git">
                         <i className="fab fa-github dark-color" ></i></a>
@@ -38,8 +37,7 @@ function Portfolio () {
                     <Card.Body>
                         <Card.Title className="card-title"> <a href ="https://immense-wave-91542.herokuapp.com/">Pizza Hunt</a></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        A pizza database where you can create recepes and store your pizza creations.
                         </Card.Text>
                         <a href ="https://github.com/MarilynPapadopoulos/Pizza-Hunt.git">
                         <i className="fab fa-github dark-color" ></i></a>
@@ -52,8 +50,7 @@ function Portfolio () {
                     <Card.Body>
                         <Card.Title> <a href ="https://puppy-love-date.herokuapp.com/">Puppy Love</a></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        This is a social app for dogs where you can sign up and create a profile.
                         </Card.Text>
                         <a href ="https://github.com/MAsuamah/puppy-love.git">
                         <i className="fab fa-github dark-color" ></i></a>
@@ -66,8 +63,7 @@ function Portfolio () {
                     <Card.Body>
                         <Card.Title> <a href ="https://agile-eyrie-87704.herokuapp.com/">ZooKeepr</a></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        An online catalogue with zoo animal's and zoo keeper's profiles.
                         </Card.Text>
                         <a href ="https://github.com/MarilynPapadopoulos/zookeepr.git">
                         <i className="fab fa-github dark-color" ></i></a>
@@ -80,8 +76,7 @@ function Portfolio () {
                     <Card.Body>
                         <Card.Title> <a href ="https://marilynpapadopoulos.github.io/photo-port/">Photo Port</a></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        An app to store photo content and a contact.
                         </Card.Text>
                         <a href ="https://github.com/MarilynPapadopoulos/photo-port.git">
                         <i className="fab fa-github dark-color" ></i></a>
@@ -92,10 +87,9 @@ function Portfolio () {
                 <Card className="portfolio-card">
                     <Card.Img variant="top" src={FoodFestival} />
                     <Card.Body>
-                        <Card.Title> <a href ="https://immense-wave-91542.herokuapp.com/">Food Festival</a></Card.Title>
+                        <Card.Title> <a href ="https://marilynpapadopoulos.github.io/food-festival/">Food Festival</a></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Food festival events and ticket information that can be used offline.
                         </Card.Text>
                         <a href ="https://github.com/MarilynPapadopoulos/food-festival.git">
                         <i className="fab fa-github dark-color" ></i></a>
