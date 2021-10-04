@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c6767ae9.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.46f9a6f1.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.46f9a6f1.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.ea3dedce.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.9fdd302c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9fdd302c.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.74c1ab3b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.74c1ab3b.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.21f6c009.chunk.js": "/react-portfolio/static/js/2.21f6c009.chunk.js",
-    "static/js/2.21f6c009.chunk.js.map": "/react-portfolio/static/js/2.21f6c009.chunk.js.map",
+    "static/js/2.cbc3e74a.chunk.js": "/react-portfolio/static/js/2.cbc3e74a.chunk.js",
+    "static/js/2.cbc3e74a.chunk.js.map": "/react-portfolio/static/js/2.cbc3e74a.chunk.js.map",
     "static/js/3.52ede3db.chunk.js": "/react-portfolio/static/js/3.52ede3db.chunk.js",
     "static/js/3.52ede3db.chunk.js.map": "/react-portfolio/static/js/3.52ede3db.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.c6767ae9.chunk.css.map": "/react-portfolio/static/css/main.c6767ae9.chunk.css.map",
-    "static/js/2.21f6c009.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.21f6c009.chunk.js.LICENSE.txt",
+    "static/css/main.ea3dedce.chunk.css.map": "/react-portfolio/static/css/main.ea3dedce.chunk.css.map",
+    "static/js/2.cbc3e74a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.cbc3e74a.chunk.js.LICENSE.txt",
     "static/media/BudgetTrack.450fd789.png": "/react-portfolio/static/media/BudgetTrack.450fd789.png",
     "static/media/FoodFestival.5dfda0d0.png": "/react-portfolio/static/media/FoodFestival.5dfda0d0.png",
     "static/media/PhotoPort.94f93b7e.png": "/react-portfolio/static/media/PhotoPort.94f93b7e.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.74c1ab3b.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.21f6c009.chunk.js",
-    "static/css/main.c6767ae9.chunk.css",
-    "static/js/main.46f9a6f1.chunk.js"
+    "static/js/2.cbc3e74a.chunk.js",
+    "static/css/main.ea3dedce.chunk.css",
+    "static/js/main.9fdd302c.chunk.js"
   ]
 }
