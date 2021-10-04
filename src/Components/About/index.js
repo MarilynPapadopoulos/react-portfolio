@@ -8,8 +8,7 @@ function About() {
       <Container className="about-container">
         <Row className="about">
           <Col className ="about-column" xs={12} md={4}>
-          <h2>About Me</h2>
-            <Image src= {Profile2} width="250" height="250" alt="profile picture" roundedCircle />
+            <Image src= {Profile2} width="300" height="250" alt="profile picture" roundedCircle />
           </Col>
           <Col xs={12} md={8}>
           <p className="about-text">I am a front-end developer maximizing my background in aviation and law to be a part of a more valuable web user experience. 

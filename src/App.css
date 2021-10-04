@@ -59,6 +59,25 @@ h2 {
 }
 /*Header Ends */
 
+/* Home Starts */
+.home {
+  height: 400px;
+  margin-top: 25px;
+}
+.Marilyn-Papadopoulos {
+  font-size: 200px;
+  font-family: 'Explora', cursive;
+  color: (--background-dark);
+}
+body.page-id-home #name {
+  visibility: hidden;
+}
+.home-column div {
+  font-size: 40px;
+  color: (--background-dark) !important;
+  float: right;
+}
+/* Home Ends */
 /* About Starts */
 .about-container {
   display: flex;
@@ -95,16 +114,38 @@ h2 {
 }
 
 /* Portfolio Ends */
+/* Skills Starts */
+.skills-container {
+  height: 400px;
+}
+.skills {
+  justify-content: center;
+  margin-top: 25px;
+}
+.skills-column div {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  color: var(--background-dark);
+}
+.icon-mysql-alt, .icon-mongodb, .icon-jquery {
+  font-size: 5em;
+}
+/* Skills Ends */
 /* Foooter Starts */
 .footer-container {
   background-color: var(--background-dark);
   max-width: unset !important;
-  margin: 0;
   display: flex;
   justify-content: center
 }
 .footer-links {
   color: var(--light-blue);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-links div {
+  margin: 0 15px;
 }
 
 /* Footer Ends */
