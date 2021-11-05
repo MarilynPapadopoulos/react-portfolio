@@ -1,16 +1,27 @@
 
 /* All the !important are to override Bootstrap */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
 main {
   height: auto;
+  flex-grow: 1;
 }
 .container {
   padding: 5px;
 }
-html, body, #root, .page-container {
+html, body, #root {
   height: 100%;
+} 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 :root {
   --font-pink: #E01A4F;
@@ -82,7 +93,6 @@ body.page-id-home #name {
 .about-container {
   display: flex;
   align-self: center;
-  height: 400px;
 }
 .about-column{
   display: flex;
@@ -115,9 +125,6 @@ body.page-id-home #name {
 
 /* Portfolio Ends */
 /* Skills Starts */
-.skills-container {
-  height: 400px;
-}
 .skills {
   justify-content: center;
   margin-top: 25px;
