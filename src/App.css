@@ -72,8 +72,8 @@ h2 {
 
 /* Home Starts */
 .home {
-  height: 400px;
   margin-top: 25px;
+  min-height: 100vh;
 }
 .Marilyn-Papadopoulos {
   font-size: 200px;
